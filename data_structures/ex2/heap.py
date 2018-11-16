@@ -1,6 +1,19 @@
 def heapsort(arr):
- pass 
- 
+  
+
+  # need an empty heap and empty data list.
+    d_h = Heap()
+    d_arr = []
+# loop over list and insert i into heap.
+    for i in arr:
+        d_h.insert(i)
+# try the insert method to add into the storage.
+# get size method.
+    while d_h.get_size() > 0:
+
+        d_arr.insert(0, d_h.delete())
+        # return data.
+    return d_arr
 
 class Heap:
   def __init__(self):
