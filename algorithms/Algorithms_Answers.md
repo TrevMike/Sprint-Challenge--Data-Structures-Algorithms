@@ -1,9 +1,10 @@
 Add your answers to the Algorithms exercises here.
-a)
+a) the first line is 0(1) and the while loop is 0(n^3)
 
-b) i see a loop, within a loop, within a loop. and the sum is incrementing.
+b) i see a loop, within a loop, within a loop. and the sum is incrementing. it should be something along the lines as
+    0(n^4)
 
-c)
+c) simply 0(n) 
 
 
 <!-- eggs method -->

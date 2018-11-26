@@ -22,16 +22,16 @@ class BinarySearchTree:
 
 # BinarySearchTree.prototype.depthFirstForEach = function(iterator, order) {
 #   if (order === 'pre-order') {
-#     iterator(this.value);
+#     iterator(this.value); <-- need this.
 #   }
 #   if (this.left) {
-#     this.left.depthFirstForEach(iterator, order);
+#     this.left.depthFirstForEach(iterator, order); <-- need this
 #   }
 #   if (!order || order === 'in-order') {
 #     iterator(this.value);
 #   }
 #   if (this.right) {
-#     this.right.depthFirstForEach(iterator, order);
+#     this.right.depthFirstForEach(iterator, order); <--- need this.
 #   }
 #   if (order === 'post-order') {
 #     iterator(this.value);

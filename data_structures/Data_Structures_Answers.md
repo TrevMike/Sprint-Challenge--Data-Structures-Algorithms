@@ -9,9 +9,10 @@ Add your answers to the questions below.
 3. What is the runtime complexity of your `breadth_first_for_each` method?
 4. What is the space complexity of your `breadth_first_for_each` method?
 5. What is the runtime complexity of your `heapsort` function?
-  <!-- 0(n) or 0(log(n)) -->
+  0(log(n))
 
 6. What is the space complexity of the `heapsort` function? Recall that your implementation should return a new array with the sorted data. What would be the space complexity if your function instead altered the input array?
+    since were returning an array of data, the space complexity is going to be 0(n).
 
 
 <!-- https://cs.stackexchange.com/questions/6901/what-is-the-time-complexity-of-the-following-program/6904 -->
